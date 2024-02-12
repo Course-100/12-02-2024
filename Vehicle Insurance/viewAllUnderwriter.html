@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widdiv=device-widdiv, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/viewAllUnderwriter.css" />
+  </head>
+  <body>
+    <header>
+        <div class="flex-container">
+            <div class="left">
+                <h1>Vehicle Insurance</h1>
+            </div>
+            <div class="right">
+                <div class="header-rows"><a href="Underwriter_Registration.html">Register</a></div>
+                <div class="header-rows"><a href="searchUserwriterById.html">Search</a></div>
+                <div class="header-rows"><a href="updateUnderwriterPassword.html">Update</a></div>
+                <div class="header-rows"><a href="deleteUnderwriterById.html">Delete</a></div>
+                <div class="header-rows"><a href="viewAllUnderwriter.html">View Database</a></div>
+               </div>
+        </div>
+    </header>
+    <div class="container">
+      <h1>View All Underwriters</h1>
+      <div class="line"></div>
+
+      <div class="grid-container">
+        <div class="firstrow" id="id">Underwriter ID</div>
+        <div id="name1">Name</div>
+        <div id="dob1">DOB</div>
+        <div id="jd">Joining Date</div>
+      </div>
+
+      <!-- Rows widiv static data -->
+
+      <div class="js-database">
+      </div>
+      <div class="js-pagination">
+        <button id="previous" onclick="previous()">Previous</button>
+        <span id="currentPage">1</span>
+        <button id="next" onclick="next()">Next</button>
+      </div>
+    </div>
+    <script src="./js/database.js"></script>
+    <script src="./js/viewDatabase.js"></script>
+  </body>
+</html>

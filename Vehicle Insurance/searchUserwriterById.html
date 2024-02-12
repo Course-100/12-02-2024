@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/searchUserwriterById.css">
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="left">
+                <h1>Vehicle Insurance</h1>
+            </div>
+            <div class="right">
+                <div class="header-rows"><a href="Underwriter_Registration.html">Register</a></div>
+                <div class="header-rows"><a href="searchUserwriterById.html">Search</a></div>
+                <div class="header-rows"><a href="updateUnderwriterPassword.html">Update</a></div>
+                <div class="header-rows"><a href="deleteUnderwriterById.html">Delete</a></div>
+                <div class="header-rows"><a href="viewAllUnderwriter.html">View Database</a></div>
+               </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Search Underwriter by Id</h1>
+        <div class="line"></div>
+        <div class="form-rows">
+            <label for="">Underwriter ID:</label>
+            <input type="text" id="underWriterId">
+            <button type="submit" class="btn">Search</button>
+        </div>
+    </div>
+    <div class="js-searchInDatabase" onclick="search()">
+    </div>
+    <script src="./js/database.js"></script>
+    <script src="./js/searchInDatabase.js"></script>
+</body>
+</html>

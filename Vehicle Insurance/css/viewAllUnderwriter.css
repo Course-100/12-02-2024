@@ -1,0 +1,48 @@
+body{
+  
+  background-size: 100% 1.2em;
+  background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -webkit-linear-gradient(#eee .05em, transparent .05em);
+  background-image: -moz-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -moz-linear-gradient(#eee .05em, transparent .05em);
+  background-image: -ms-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -ms-linear-gradient(#eee .05em, transparent .05em);
+  background-image: -o-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -o-linear-gradient(#eee .05em, transparent .05em);
+  background-image: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .05em, transparent .05em);
+  -pie-background: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px) 0 0 / 100% 1.2em, linear-gradient(#eee .05em, transparent .05em) 0 0 / 100% 1.2em #fff;
+  behavior: url(/PIE.htc);
+}
+.container h1 {
+    font-size: 3rem;
+    color: #13a8ff;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1rem;
+    margin-top: 1em;
+    font-family: "Oswald", sans-serif;
+  }
+  .line {
+    border-bottom: 3px solid #13a8ff;
+    margin-top: 2em;
+  }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .grid-container , .js-database{
+    display: grid;
+    grid-template-columns: 150px 200px 200px 200px;
+    column-gap: 1em;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-container{
+    margin-left: 5em;
+    margin-top: 3em;
+    margin-right: 5em;
+    border-bottom: 1px solid black;
+  }
+  .grid-container div , .js-database div{
+    border-right: 1px solid black;
+    padding: 1em;
+  }
+  .firstrow{
+    border-left: 1px solid black;
+  }

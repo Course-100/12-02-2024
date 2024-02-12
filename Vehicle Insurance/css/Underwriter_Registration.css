@@ -1,0 +1,99 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(363, 96%, 78%); 
+}
+.form-container h1{
+    font-size: 3rem;
+    color: #13A8FF;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1rem;
+    margin-top: 2em;
+    font-family: 'Oswald', sans-serif;
+   
+}
+.line{
+    border-bottom: 3px solid #13A8FF;
+    margin-top: 2em;
+}
+/* .grid-header{
+    display: grid;
+    justify-items: center;
+} */
+
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px dotted black;
+    padding: 0 2em 3em;
+    border-radius: 1em;
+    background-color: #fff;
+
+
+
+
+
+    background-size: 100% 1.2em;
+    background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -webkit-linear-gradient(#eee .05em, transparent .05em);
+    background-image: -moz-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -moz-linear-gradient(#eee .05em, transparent .05em);
+    background-image: -ms-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -ms-linear-gradient(#eee .05em, transparent .05em);
+    background-image: -o-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -o-linear-gradient(#eee .05em, transparent .05em);
+    background-image: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .05em, transparent .05em);
+    -pie-background: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px) 0 0 / 100% 1.2em, linear-gradient(#eee .05em, transparent .05em) 0 0 / 100% 1.2em #fff;
+    behavior: url(/PIE.htc);
+  
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    margin-top: 4em;
+}
+.form-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+input{
+    padding: 0.6em 1em;
+  border-radius: 0.3em ;
+}
+label{
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-btn{
+    margin-top: 2.5em;
+}
+.form-btn button{ 
+    background-color: rgb(101, 185, 101);
+  margin: 0 auto;
+
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  padding: 0.2em 1.3em;
+    font-size: 1.5rem;
+    
+    border-radius: 0.2em;
+}
+.form-btn button:hover{
+    background-color: rgb(90, 173, 179);
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: rgb(64, 64, 158);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            border-radius: 0.5em;
+            margin-top: 0.05em;
+        }
+        .flex-container , .right{
+            display: flex;
+            gap: 1em;
+            padding: 0.8em 2em;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-rows{
+            padding: 0.6em 2em;
+            border-radius: 2em;
+            cursor: pointer;
+        }        
+        .header-rows:hover{
+            font-weight: 600;
+            background-color: white;
+        }
+        .header-rows:hover a{
+            color: rgb(235, 98, 121);
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.2rem;
+           color: white;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="left">
+                <h1>Vehicle Insurance</h1>
+            </div>
+           <div class="right">
+            <div class="header-rows"><a href="#">Register</a></div>
+            <div class="header-rows"><a href="">Search</a></div>
+            <div class="header-rows"><a href="">Update</a></div>
+            <div class="header-rows"><a href="">Delete</a></div>
+            <div class="header-rows"><a href="">View Database</a></div>
+           </div>
+        </div>
+    </header>
+</body>
+</html>

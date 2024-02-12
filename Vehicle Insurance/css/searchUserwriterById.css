@@ -1,0 +1,62 @@
+.searchInDatabase{
+  display: grid;
+  grid-template-columns: 150px 200px 200px 200px 200px;
+  column-gap: 1em;
+  justify-content: center;
+  text-align: center;
+}
+.searchInDatabase div{
+  border-right: 1px solid black;
+  padding: 1em;
+}
+.firstrow{
+  border-left: 1px solid black;
+}
+
+/* --------- */
+.container h1 {
+  font-size: 3rem;
+  color: #13a8ff;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin-top: 1em;
+  font-family: "Oswald", sans-serif;
+}
+.line {
+  border-bottom: 3px solid #13a8ff;
+  margin-top: 2em;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.form-rows {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+input {
+  padding: 0.6em 1em;
+  border-radius: 0.3em;
+  width: 25em;
+}
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  
+}
+.btn {
+  background-color: rgb(221, 236, 84);
+  color: rgb(128, 60, 173);
+  cursor: pointer;
+  padding: 0.1em 1.3em;
+  font-size: 1.5rem;
+  border-radius: 0.3em;
+}
+.btn:hover{
+    background-color: rgb(206, 130, 31);
+}

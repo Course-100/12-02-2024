@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/Underwriter_Registration.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="flex-container">
+          <div class="left">
+              <h1>Vehicle Insurance</h1>
+          </div>
+          <div class="right">
+            <div class="header-rows"><a href="Underwriter_Registration.html">Register</a></div>
+            <div class="header-rows"><a href="searchUserwriterById.html">Search</a></div>
+            <div class="header-rows"><a href="updateUnderwriterPassword.html">Update</a></div>
+            <div class="header-rows"><a href="deleteUnderwriterById.html">Delete</a></div>
+            <div class="header-rows"><a href="viewAllUnderwriter.html">View Database</a></div>
+           </div>
+      </div>
+  </header>
+    <main>
+      <div class="container">
+        <div class="form-container">
+          
+              <h1>UnderWriter Registration</h1>
+              <div class="line"></div>
+         
+          <form action="">
+            <div class="form-rows">
+              <label for="" class="keys">UnderWriter Id:</label
+              ><input type="text" class="values" id="underWriterId" maxlength="50" required>/>
+            </div>
+            <div class="form-rows">
+              <label for="" class="keys">First Name:</label
+              ><input type="text" class="values" id="firstName" required/>
+            </div>
+            <div class="form-rows">
+              <label for="" class="keys">Last Name:</label
+              ><input type="text" class="values" id="lastName" required/>
+            </div>
+            <div class="form-rows">
+              <label for="" class="keys">DOB:</label
+              ><input type="date" class="values" id="dob" required/>
+            </div>
+            <div class="form-rows">
+              <label for="" class="keys">Joining Date</label
+              ><input type="date" class="values" id="joiningDate" required/>
+            </div>
+            <div class="form-rows">
+              <label for="" class="keys">Email:</label
+              ><input type="email" class="values" id="email" required/>
+            </div>
+            <div class="form-rows">
+              <label for="" class="keys">Default Password:</label
+              ><input type="password" class="values" id="defaultPpassword" required/>
+            </div>
+            
+          </form>
+          <div class="form-rows form-btn">
+              <button class="btn"><a href="viewAllUnderwriter.html" id="reg-btn">Register</a></button>
+            </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/database.js"></script>
+  </body>
+</html>
